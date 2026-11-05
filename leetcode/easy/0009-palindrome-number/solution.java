@@ -2,8 +2,8 @@ class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
         int temp = x;
-        long sum = 0;
-        while(temp != 0){
+        int sum = 0;
+        while(temp>0){
             int d = temp % 10;
             sum = sum * 10 + d;
             temp /= 10;
