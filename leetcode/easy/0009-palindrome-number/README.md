@@ -48,9 +48,9 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 41.5 MB  
-**Submitted:** 2026-11-05T17:27:00.103Z  
+**Runtime:** 14 ms (beats 26.31%)  
+**Memory:** 45.4 MB (beats 91.42%)  
+**Submitted:** 2026-11-05T17:27:33.083Z  
 
 ```java
 class Solution {
@@ -63,13 +63,7 @@ class Solution {
             sum = sum * 10 + d;
             temp /= 10;
         }
-        if(sum == x){
-            return true;
-        }
-        else{
-            return false;
-        }
-        //return sum == x;
+        return sum == x;
 
         // String s = String.valueOf(x); // Convert to String
         // int n = s.length(); // Store the String length to int n
