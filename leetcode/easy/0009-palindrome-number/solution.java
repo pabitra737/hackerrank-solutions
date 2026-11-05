@@ -8,13 +8,7 @@ class Solution {
             sum = sum * 10 + d;
             temp /= 10;
         }
-        if(sum == x){
-            return true;
-        }
-        else{
-            return false;
-        }
-        //return sum == x;
+        return sum == x;
 
         // String s = String.valueOf(x); // Convert to String
         // int n = s.length(); // Store the String length to int n
