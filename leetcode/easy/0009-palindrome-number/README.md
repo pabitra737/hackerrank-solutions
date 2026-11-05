@@ -48,17 +48,17 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 14 ms (beats 26.31%)  
-**Memory:** 45.2 MB (beats 97.91%)  
-**Submitted:** 2026-11-05T17:25:31.383Z  
+**Runtime:** 0 ms  
+**Memory:** 41.5 MB  
+**Submitted:** 2026-11-05T17:26:04.034Z  
 
 ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
         int temp = x;
-        long sum = 0;
-        while(temp != 0){
+        int sum = 0;
+        while(temp>0){
             int d = temp % 10;
             sum = sum * 10 + d;
             temp /= 10;
