@@ -73,9 +73,9 @@ Explanation: The folowing table is ordered by the turn for simplicity.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 91 ms  
-**Memory:** 0B  
-**Submitted:** 2026-11-06T03:19:21.453Z  
+**Runtime:** 936 ms (beats 57.79%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-11-06T03:19:30.530Z  
 
 ```sql
 # Write your MySQL query statement below
