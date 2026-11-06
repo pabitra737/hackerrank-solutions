@@ -65,9 +65,9 @@ High Salary: Accounts 3, 6, and 8.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 315 ms  
-**Memory:** 0B  
-**Submitted:** 2026-11-06T03:20:22.151Z  
+**Runtime:** 1545 ms (beats 71.11%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-11-06T03:20:30.262Z  
 
 ```sql
 # Write your MySQL query statement below
