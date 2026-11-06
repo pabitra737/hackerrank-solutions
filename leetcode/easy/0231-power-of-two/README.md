@@ -50,8 +50,8 @@ Output: false
 
 **Language:** Java  
 **Runtime:** 2 ms (beats 19.48%)  
-**Memory:** 41.5 MB (beats 99.85%)  
-**Submitted:** 2026-11-06T03:41:52.591Z  
+**Memory:** 42.1 MB (beats 81.25%)  
+**Submitted:** 2026-11-06T03:42:40.936Z  
 
 ```java
 class Solution {
@@ -59,23 +59,24 @@ class Solution {
         // if(n < 1) return false;
         // return (n & (n-1)) == 0;
 
-        //return n > 0 && (n & (n - 1)) == 0;
+        //bitwise operator
+        return n > 0 && (n & (n - 1)) == 0;
 
         //using loop
-        if(n<1)return false;
-        else if(n==1) return true;
-        else{
-            while(n%2==0){
-                n /= 2;
-            }
-            if(n==1){
-                return true;
-            }
-            else{
-                return false;
-            }
+        // if(n<1)return false;
+        // else if(n==1) return true;
+        // else{
+        //     while(n%2==0){
+        //         n /= 2;
+        //     }
+        //     if(n==1){
+        //         return true;
+        //     }
+        //     else{
+        //         return false;
+        //     }
             
-        }
+        // }
     }
 }
 ```
