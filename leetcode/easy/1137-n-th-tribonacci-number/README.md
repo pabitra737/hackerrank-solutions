@@ -42,8 +42,8 @@ Output: 1389537
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 41.5 MB (beats 90.70%)  
-**Submitted:** 2026-11-08T04:39:08.047Z  
+**Memory:** 41.4 MB (beats 90.70%)  
+**Submitted:** 2026-11-08T04:39:58.798Z  
 
 ```java
 class Solution {
@@ -58,6 +58,15 @@ class Solution {
             c=temp;
         }
         return c;
+
+
+        // if (n == 0) {
+        //     return 0;
+        // } else if (n == 1 || n == 2) {
+        //     return 1;
+        // } else {
+        //     return tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3);
+        // }
     }
 }
 ```
