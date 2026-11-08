@@ -42,21 +42,22 @@ Output: 1389537
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 41.1 MB (beats 98.74%)  
-**Submitted:** 2026-11-08T04:34:32.261Z  
+**Memory:** 41.5 MB (beats 90.70%)  
+**Submitted:** 2026-11-08T04:39:08.047Z  
 
 ```java
 class Solution {
     public int tribonacci(int n) {
         if(n<=1) return n;
+        if(n==2) return 1;
         int a=0, b=1, c=1;
-        for(int i = 1; i<=n; i++){
+        for(int i = 3; i<=n; i++){
             int temp = a+b+c;
             a=b;
             b=c;
             c=temp;
         }
-        return a;
+        return c;
     }
 }
 ```
