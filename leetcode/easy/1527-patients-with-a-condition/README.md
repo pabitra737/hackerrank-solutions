@@ -58,9 +58,9 @@ Explanation: Bob and George both have a condition that starts with DIAB1.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 252 ms  
-**Memory:** 0B  
-**Submitted:** 2026-11-08T16:11:22.002Z  
+**Runtime:** 500 ms (beats 54.52%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-11-08T16:11:28.027Z  
 
 ```sql
 /* Write your PL/SQL query statement below */
