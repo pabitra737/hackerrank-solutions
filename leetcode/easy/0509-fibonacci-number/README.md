@@ -52,16 +52,25 @@ Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 11 ms (beats 9.89%)  
-**Memory:** 41.8 MB (beats 72.54%)  
-**Submitted:** 2026-11-07T15:44:24.293Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 41.8 MB (beats 71.57%)  
+**Submitted:** 2026-11-08T04:30:34.488Z  
 
 ```java
 class Solution {
     public int fib(int n) {
-        if(n==0) return 0;
-        if(n==1) return 1;
-        return fib(n-1) + fib(n-2);
+        // if(n==0) return 0;
+        // if(n==1) return 1;
+        // return fib(n-1) + fib(n-2);
+
+        if (n <= 1) return n;
+        int a = 0, b = 1;
+        for (int i = 2; i <= n; i++) {
+            int temp = b;
+            b = a + b;
+            a = temp;
+        }
+        return b;
     }
 }
 ```
