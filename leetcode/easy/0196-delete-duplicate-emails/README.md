@@ -58,9 +58,9 @@ Explanation: john@example.com is repeated two times. We keep the row with the sm
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 342 ms  
-**Memory:** 0B  
-**Submitted:** 2026-11-08T16:12:05.585Z  
+**Runtime:** 561 ms (beats 88.17%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-11-08T16:12:19.506Z  
 
 ```sql
 /* Write your PL/SQL query statement below */
