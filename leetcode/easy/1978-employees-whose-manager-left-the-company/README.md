@@ -62,9 +62,9 @@ Joziah's manager is employee 6, who left the company because there is no row for
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 101 ms  
-**Memory:** 0B  
-**Submitted:** 2026-11-08T15:51:31.986Z  
+**Runtime:** 457 ms (beats 21.36%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-11-08T15:52:05.306Z  
 
 ```sql
 # Write your MySQL query statement below
@@ -72,7 +72,8 @@ select employee_id
 from employees 
 where salary < 30000 
 and manager_id 
-not in (select employee_id from employees order by employee_id asc)
+not in (select employee_id from employees)
+order by employee_id
 ```
 
 ---
