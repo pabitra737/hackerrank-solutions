@@ -60,9 +60,9 @@ The sum of `nums[0]` and `nums[1]` is `3 + 3 = 6`, which equals the target. Ther
 ## Solution
 
 **Language:** Java  
-**Runtime:** 52 ms (beats 6.22%)  
-**Memory:** 46.7 MB (beats 68.76%)  
-**Submitted:** 2026-11-10T13:10:29.324Z  
+**Runtime:** 41 ms (beats 33.38%)  
+**Memory:** 46.6 MB (beats 76.56%)  
+**Submitted:** 2026-11-10T13:10:53.739Z  
 
 ```java
 class Solution {
@@ -73,6 +73,7 @@ class Solution {
                 if(nums[i] + nums[j] == target){
                     arr[0] = i;
                     arr[1] = j;
+                    break;
                 }
             }
         }
